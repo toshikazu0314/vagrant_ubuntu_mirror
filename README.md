@@ -11,6 +11,8 @@ _$ vagrant up_
 _$ vagrant ssh_
 4. mirror files  
 _$ ./mirrorbuild.sh_
+5. destroy a VM after log out from a VM
+_$ vagrant destroy_
 
 ## Optimization
 The script file "mirrorbuild.sh" contains a server name to download archives.
