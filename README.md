@@ -1,6 +1,7 @@
 # vagrant_ubuntu_mirror
 ## Prerequisite
 * Vagrant box file of [ubuntu/trusty64](https://atlas.hashicorp.com/ubuntu/boxes/trusty64)
+
 ## How to use
 1. prepare a directory to store the repository
 $ mkdir ../ubuntu_mirror
@@ -10,6 +11,7 @@ $ vagrant up
 $ vagrant ssh
 4. mirror files
 $ ./mirrorbuild.sh
+
 ## Optimization
 The script file "mirrorbuild.sh" contains server name to download archives.
 You may want to change it so that you have better network throughput.
